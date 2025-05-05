@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .flex--ct {
@@ -111,7 +114,8 @@ span{
 #camisa_numero{
     font-size: 120px;
     font-weight: 600;
+    letter-spacing: -1rem;
     top: 57%;
-    left: 51%;
+    left: 49%;
     transform: translate(-50%,-50%);
 }
